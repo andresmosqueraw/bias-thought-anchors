@@ -1,0 +1,92 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Bogdan et~al.(2025)Bogdan, Macar, Nanda, and
+  Conmy}]{bogdan2025thoughtanchors}
+Paul~C. Bogdan, Uzay Macar, Neel Nanda, and Arthur Conmy. 2025.
+\newblock \href {https://arxiv.org/abs/2506.19143} {Thought anchors: Which
+  {LLM} reasoning steps matter?}
+\newblock \emph{Preprint}, arXiv:2506.19143.
+
+\bibitem[{Huang and Xiong(2023)}]{huang2023cbbq}
+Yufei Huang and Deyi Xiong. 2023.
+\newblock \href {https://arxiv.org/abs/2306.16244} {{CBBQ}: A chinese bias
+  benchmark dataset curated with human-{AI} collaboration for large language
+  models}.
+\newblock \emph{Preprint}, arXiv:2306.16244.
+
+\bibitem[{Jin et~al.(2024)Jin, Kim, Lee, Yoo, Oh, and Lee}]{jin2024kobbq}
+Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, and Hwaran Lee. 2024.
+\newblock \href {https://doi.org/10.1162/tacl_a_00661} {{KoBBQ}: {K}orean bias
+  benchmark for question answering}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  12:507--524.
+
+\bibitem[{Karmim et~al.(2026)Karmim, Pino, Contreras, Lira, Cifuentes,
+  Escoffier, Mart{\'i}, Seddah, and Barri{\`e}re}]{karmim2026latamqa}
+Yannis Karmim, Renato Pino, Hernan Contreras, Hernan Lira, Sebastien Cifuentes,
+  Simon Escoffier, Luis Mart{\'i}, Djam{\'e} Seddah, and Valentin Barri{\`e}re.
+  2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.mme-main.11} {Leveraging
+  {W}ikidata for geographically informed sociocultural bias dataset creation:
+  {A}pplication to {L}atin {A}merica}.
+\newblock In \emph{Proceedings of the First Workshop on Multilingual
+  Multicultural Evaluation ({MME@EACL} 2026)}, pages 177--188.
+
+\bibitem[{Kotek et~al.(2023)Kotek, Dockum, and Sun}]{kotek2023gender}
+Hadas Kotek, Rikker Dockum, and David Sun. 2023.
+\newblock \href {https://doi.org/10.1145/3582269.3615599} {Gender bias and
+  stereotypes in large language models}.
+\newblock In \emph{Proceedings of the {ACM} Collective Intelligence
+  Conference}, CI '23, pages 12--24. ACM.
+
+\bibitem[{Neplenbroek et~al.(2024)Neplenbroek, Bisazza, and
+  Fern{\'a}ndez}]{neplenbroek2024mbbq}
+Vera Neplenbroek, Arianna Bisazza, and Raquel Fern{\'a}ndez. 2024.
+\newblock \href {https://openreview.net/forum?id=X9yV4lFHt4} {{MBBQ}: A dataset
+  for cross-lingual comparison of stereotypes in generative {LLM}s}.
+\newblock In \emph{First Conference on Language Modeling}.
+
+\bibitem[{Parrish et~al.(2022)Parrish, Chen, Nangia, Padmakumar, Phang,
+  Thompson, Htut, and Bowman}]{parrish2022bbq}
+Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang,
+  Jana Thompson, Phu~Mon Htut, and Samuel~R. Bowman. 2022.
+\newblock \href {https://aclanthology.org/2022.findings-acl.165} {{BBQ}: A
+  hand-built bias benchmark for question answering}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  {ACL} 2022}.
+
+\bibitem[{Robles et~al.(2024)Robles, Bernal, Raigoso, and {Dulce
+  Rubio}}]{robles2024sesgo}
+Melissa Robles, Catalina Bernal, Denniss Raigoso, and Mateo {Dulce Rubio}.
+  2024.
+\newblock {SESGO}: {S}panish evaluation of stereotypical generative outputs.
+\newblock GitHub: \url{https://github.com/mvrobles/SESGO}.
+
+\bibitem[{Ruiz-Fern{\'a}ndez et~al.(2025)Ruiz-Fern{\'a}ndez, Mina, Falc{\~a}o,
+  {Vasquez-Reina}, Sall{\'e}s, {Gonzalez-Agirre}, and
+  {Perez-de-Vi{\~n}aspre}}]{ruizfernandez2025esbbq}
+Valle Ruiz-Fern{\'a}ndez, Mario Mina, J{\'u}lia Falc{\~a}o, Luis
+  {Vasquez-Reina}, Anna Sall{\'e}s, Aitor {Gonzalez-Agirre}, and Olatz
+  {Perez-de-Vi{\~n}aspre}. 2025.
+\newblock \href {https://arxiv.org/abs/2507.11216} {{EsBBQ} and {CaBBQ}: The
+  spanish and catalan bias benchmarks for question answering}.
+\newblock \emph{Preprint}, arXiv:2507.11216.
+
+\bibitem[{Shaikh et~al.(2023)Shaikh, Zhang, Held, Bernstein, and
+  Yang}]{shaikh2023step}
+Omar Shaikh, Hongxin Zhang, William Held, Michael Bernstein, and Diyi Yang.
+  2023.
+\newblock \href {https://aclanthology.org/2023.acl-long.244} {On second
+  thought, let's not think step by step! bias and toxicity in zero-shot
+  reasoning}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics ({ACL} 2023)}.
+
+\bibitem[{Vo et~al.(2025)Vo, Taesiri, Kim, and Nguyen}]{vo2025bscore}
+An~Vo, Mohammad~Reza Taesiri, Daeyoung Kim, and Anh~Totti Nguyen. 2025.
+\newblock \href {https://arxiv.org/abs/2505.18545} {B-score: Detecting biases
+  in large language models using response history}.
+\newblock In \emph{International Conference on Machine Learning ({ICML})}.
+
+\end{thebibliography}

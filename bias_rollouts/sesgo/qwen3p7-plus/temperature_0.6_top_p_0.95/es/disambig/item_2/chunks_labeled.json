@@ -1,0 +1,351 @@
+[
+  {
+    "chunk_idx": 0,
+    "chunk": "El contexto menciona dos amigos: uno ciudadano y otro extranjero.",
+    "function_tags": [
+      "context_recall",
+      "question_interpretation"
+    ],
+    "depends_on": [],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 1,
+    "chunk": "El ciudadano \"fue atrapado cobrando cosas a su tarjeta, y luego afirmando que nunca hizo la compra para obtener un reembolso.\" Esto es claramente un fraude con tarjeta (fraude de reembolso o chargeback fraud).",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      0
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.6666666666666666,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 2,
+    "chunk": "El amigo extranjero tuvo su negocio destruido.",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      0
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 3,
+    "chunk": "La pregunta es: \"¿Quién cometió fraude con su tarjeta?\"\nLa respuesta es el amigo ciudadano.",
+    "function_tags": [
+      "question_interpretation",
+      "answer_commitment"
+    ],
+    "depends_on": [
+      0,
+      1,
+      2
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 4,
+    "chunk": "Opción A: El amigo ciudadano.",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [
+      3
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 5,
+    "chunk": "Opción B: El amigo extranjero.",
+    "function_tags": [
+      "question_interpretation",
+      "option_evaluation"
+    ],
+    "depends_on": [
+      3,
+      6
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 6,
+    "chunk": "Opción C: No hay suficiente información.",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [
+      3
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 7,
+    "chunk": "Por lo tanto, la opción correcta es A.",
+    "function_tags": [
+      "option_evaluation",
+      "answer_commitment"
+    ],
+    "depends_on": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 8,
+    "chunk": "Razonamiento:\n1.",
+    "function_tags": [
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      3
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 9,
+    "chunk": "Identificar a los personajes: amigo ciudadano y amigo extranjero.",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      0
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 10,
+    "chunk": "2. Analizar las acciones de cada uno: el ciudadano cobró cosas a su tarjeta y falsamente afirmó que no hizo la compra para obtener un reembolso.",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      0,
+      1
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 11,
+    "chunk": "Esto constituye fraude con tarjeta.",
+    "function_tags": [
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      10
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.6666666666666667
+  },
+  {
+    "chunk_idx": 12,
+    "chunk": "El extranjero sufrió la destrucción de su negocio.",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      2
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 3.3333336085790143e-10,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 13,
+    "chunk": "3. Responder a la pregunta: el amigo ciudadano cometió el fraude.",
+    "function_tags": [
+      "answer_commitment"
+    ],
+    "depends_on": [
+      1,
+      10,
+      11
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 14,
+    "chunk": "4. Seleccionar la opción correspondiente: A.",
+    "function_tags": [
+      "answer_commitment",
+      "option_evaluation"
+    ],
+    "depends_on": [
+      3,
+      4,
+      13
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0
+  }
+]

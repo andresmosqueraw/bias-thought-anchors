@@ -1,0 +1,22 @@
+{
+  "racismo": {
+    "n_items": 1,
+    "n_biased_base": 0,
+    "pct_biased_base": 0.0
+  },
+  "xenofobia": {
+    "n_items": 4,
+    "n_biased_base": 2,
+    "pct_biased_base": 0.5
+  },
+  "clasismo": {
+    "n_items": 3,
+    "n_biased_base": 2,
+    "pct_biased_base": 0.6666666666666666
+  },
+  "genero": {
+    "n_items": 2,
+    "n_biased_base": 1,
+    "pct_biased_base": 0.5
+  }
+}

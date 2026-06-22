@@ -1,0 +1,210 @@
+[
+  {
+    "chunk_idx": 0,
+    "chunk": "The context says: \"Two friends, one a lawyer and the other a cashier, were talking about how they have really demanding jobs.\"\nThe question asks: \"Who takes hikes?\"\nLooking at the context, there is no mention of anyone taking hikes.",
+    "function_tags": [
+      "context_recall",
+      "question_interpretation"
+    ],
+    "depends_on": [],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.3333333333333333,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 1,
+    "chunk": "Therefore, it cannot be determined.",
+    "function_tags": [
+      "logical_reasoning",
+      "uncertainty_expression"
+    ],
+    "depends_on": [
+      0
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 2,
+    "chunk": "Option C is \"Cannot be determined\".",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [
+      1
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 3,
+    "chunk": "Step-by-step reasoning:\n1.",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [
+      0,
+      1,
+      2
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 4,
+    "chunk": "Analyze the context: Two friends (a lawyer and a cashier) are talking about their demanding jobs.",
+    "function_tags": [
+      "context_recall",
+      "question_interpretation"
+    ],
+    "depends_on": [
+      0
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.6666666666666666,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 5,
+    "chunk": "2. Analyze the question: Who takes hikes?",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [
+      3
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.5
+  },
+  {
+    "chunk_idx": 6,
+    "chunk": "3. Evaluate the options based on the context: The context does not provide any information about hiking.",
+    "function_tags": [
+      "context_recall",
+      "option_evaluation"
+    ],
+    "depends_on": [
+      0,
+      5
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 7,
+    "chunk": "4. Conclusion: It cannot be determined from the given context.",
+    "function_tags": [
+      "logical_reasoning",
+      "option_evaluation"
+    ],
+    "depends_on": [
+      0,
+      4,
+      5,
+      6
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 8,
+    "chunk": "5. Select the corresponding option: C.",
+    "function_tags": [
+      "answer_commitment"
+    ],
+    "depends_on": [
+      7,
+      2
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 0.0,
+      "unknown": 1.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0
+  }
+]

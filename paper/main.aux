@@ -1,0 +1,89 @@
+\relax 
+\bibstyle{acl_natbib}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{parrish2022bbq}
+\citation{robles2024sesgo}
+\citation{ruizfernandez2025esbbq}
+\citation{bogdan2025thoughtanchors}
+\citation{parrish2022bbq}
+\citation{robles2024sesgo}
+\citation{huang2023cbbq}
+\citation{jin2024kobbq}
+\citation{vo2025bscore}
+\citation{bogdan2025thoughtanchors}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{parrish2022bbq}
+\citation{huang2023cbbq}
+\citation{jin2024kobbq}
+\citation{neplenbroek2024mbbq}
+\citation{ruizfernandez2025esbbq}
+\citation{robles2024sesgo}
+\citation{karmim2026latamqa}
+\citation{bogdan2025thoughtanchors}
+\citation{shaikh2023step}
+\citation{kotek2023gender}
+\citation{robles2024sesgo}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Social bias benchmarks.}{2}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Chain-of-thought attribution.}{2}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Bias in chain-of-thought reasoning.}{2}{section*.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces SESGO-small composition. ES/EN = Spanish/English; a = ambiguous, d = disambiguated.}}{2}{table.caption.4}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:sesgo-small}{{1}{2}{SESGO-small composition. ES/EN = Spanish/English; a = ambiguous, d = disambiguated}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Dataset: SESGO-small}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Models}{2}{subsection.3.2}\protected@file@percent }
+\newlabel{subsec:models}{{3.2}{2}{Models}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}CoT Generation and Chunking}{2}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Importance Attribution via Rollout Resampling}{3}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Semantic Chunk Labeling}{3}{subsection.3.5}\protected@file@percent }
+\newlabel{subsec:labeling}{{3.5}{3}{Semantic Chunk Labeling}{subsection.3.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{3}{section.4}\protected@file@percent }
+\newlabel{sec:results}{{4}{3}{Results}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Base Answer Bias Rates}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Base pro-stereotypical answer rates (\%) per model and condition on SESGO-small. Dashed line at 50\% = chance level. All ambiguous cells are 0\%; disambiguated cells range 33–75\%. CIs span $\pm $30–45\,pp (see Table~\ref {tab:base-bias}).}}{3}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:base-bias}{{1}{3}{Base pro-stereotypical answer rates (\%) per model and condition on SESGO-small. Dashed line at 50\% = chance level. All ambiguous cells are 0\%; disambiguated cells range 33–75\%. CIs span $\pm $30–45\,pp (see Table~\ref {tab:base-bias})}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Chunk-Level Importance: Which Reasoning Steps Associate with Bias}{3}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Pro-stereotypical base answer rates on SESGO-small. ES/EN = Spanish/English. $\dagger $~Claude EN/disambig.\ based on 4 items with $\geq $2 chunks. 95\% binomial CIs span $\pm $30–45\,pp; treat all numbers as illustrative.}}{4}{table.caption.5}\protected@file@percent }
+\newlabel{tab:base-bias}{{2}{4}{Pro-stereotypical base answer rates on SESGO-small. ES/EN = Spanish/English. $\dagger $~Claude EN/disambig.\ based on 4 items with $\geq $2 chunks. 95\% binomial CIs span $\pm $30–45\,pp; treat all numbers as illustrative}{table.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Semantic tag frequency among all labeled chunks vs.\ the 37 high-importance chunks ($|\Delta _\text  {RS}|{>}0.2$). Tags assigned by Claude Haiku; not human-validated. Mean $|\Delta _\text  {RS}|$ $\pm $ SE per tag is shown in Figure~\ref {fig:tag-importance}.}}{4}{table.caption.7}\protected@file@percent }
+\newlabel{tab:tags}{{3}{4}{Semantic tag frequency among all labeled chunks vs.\ the 37 high-importance chunks ($|\Delta _\text {RS}|{>}0.2$). Tags assigned by Claude Haiku; not human-validated. Mean $|\Delta _\text {RS}|$ $\pm $ SE per tag is shown in Figure~\ref {fig:tag-importance}}{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Mean $|\Delta _\text  {RS}|$ by semantic chunk tag on SESGO-small, pooled across all models and conditions. Error bars = $\pm $1 SE. Tags with fewer than 5 instances excluded. \texttt  {logical\_reasoning} and \texttt  {context\_recall} show the highest values; \texttt  {stereotype\_activation} and \texttt  {group\_attribution} are near zero on this pilot dataset.}}{4}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:tag-importance}{{2}{4}{Mean $|\Delta _\text {RS}|$ by semantic chunk tag on SESGO-small, pooled across all models and conditions. Error bars = $\pm $1 SE. Tags with fewer than 5 instances excluded. \texttt {logical\_reasoning} and \texttt {context\_recall} show the highest values; \texttt {stereotype\_activation} and \texttt {group\_attribution} are near zero on this pilot dataset}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {paragraph}{Qualitative example.}{4}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{4}{section.5}\protected@file@percent }
+\citation{robles2024sesgo}
+\citation{robles2024sesgo}
+\bibdata{references}
+\bibcite{bogdan2025thoughtanchors}{{1}{2025}{{Bogdan et~al.}}{{Bogdan, Macar, Nanda, and Conmy}}}
+\bibcite{huang2023cbbq}{{2}{2023}{{Huang and Xiong}}{{}}}
+\bibcite{jin2024kobbq}{{3}{2024}{{Jin et~al.}}{{Jin, Kim, Lee, Yoo, Oh, and Lee}}}
+\bibcite{karmim2026latamqa}{{4}{2026}{{Karmim et~al.}}{{Karmim, Pino, Contreras, Lira, Cifuentes, Escoffier, Mart{\'i}, Seddah, and Barri{\`e}re}}}
+\bibcite{kotek2023gender}{{5}{2023}{{Kotek et~al.}}{{Kotek, Dockum, and Sun}}}
+\bibcite{neplenbroek2024mbbq}{{6}{2024}{{Neplenbroek et~al.}}{{Neplenbroek, Bisazza, and Fern{\'a}ndez}}}
+\bibcite{parrish2022bbq}{{7}{2022}{{Parrish et~al.}}{{Parrish, Chen, Nangia, Padmakumar, Phang, Thompson, Htut, and Bowman}}}
+\bibcite{robles2024sesgo}{{8}{2024}{{Robles et~al.}}{{Robles, Bernal, Raigoso, and {Dulce Rubio}}}}
+\bibcite{ruizfernandez2025esbbq}{{9}{2025}{{Ruiz-Fern{\'a}ndez et~al.}}{{Ruiz-Fern{\'a}ndez, Mina, Falc{\~a}o, {Vasquez-Reina}, Sall{\'e}s, {Gonzalez-Agirre}, and {Perez-de-Vi{\~n}aspre}}}}
+\bibcite{shaikh2023step}{{10}{2023}{{Shaikh et~al.}}{{Shaikh, Zhang, Held, Bernstein, and Yang}}}
+\bibcite{vo2025bscore}{{11}{2025}{{Vo et~al.}}{{Vo, Taesiri, Kim, and Nguyen}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Per-Category Bias Rates}{5}{appendix.A}\protected@file@percent }
+\newlabel{app:category-table}{{A}{5}{Per-Category Bias Rates}{appendix.A}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Pro-stereo base answers by category, all models, ES+EN disambig combined. Denominators are 2–8 items; estimates not stable.}}{5}{table.caption.14}\protected@file@percent }
+\newlabel{tab:category}{{4}{5}{Pro-stereo base answers by category, all models, ES+EN disambig combined. Denominators are 2–8 items; estimates not stable}{table.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Base pro-stereo rate (\%) by bias category and model, disambiguated condition, ES+EN combined. Color: 0\% (blue) to 100\% (red). `---' = fewer than 2 items with $\geq $2 chunks. Denominators are 2–8 per cell; not stable.}}{6}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:heatmap}{{3}{6}{Base pro-stereo rate (\%) by bias category and model, disambiguated condition, ES+EN combined. Color: 0\% (blue) to 100\% (red). `---' = fewer than 2 items with $\geq $2 chunks. Denominators are 2–8 per cell; not stable}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Compute Resources}{6}{appendix.B}\protected@file@percent }
+\newlabel{app:compute}{{B}{6}{Compute Resources}{appendix.B}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Approximate API call counts and observed costs for the full SESGO-small pilot (80 items, 3 models, $K{=}3$ rollouts, semantic labeling). Costs as billed in June 2026; per-token rates vary by provider and may change over time.}}{6}{table.caption.16}\protected@file@percent }
+\newlabel{tab:compute}{{5}{6}{Approximate API call counts and observed costs for the full SESGO-small pilot (80 items, 3 models, $K{=}3$ rollouts, semantic labeling). Costs as billed in June 2026; per-token rates vary by provider and may change over time}{table.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}LLM Use Declaration}{6}{appendix.C}\protected@file@percent }
+\newlabel{app:llm}{{C}{6}{LLM Use Declaration}{appendix.C}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Additional Figures}{6}{appendix.D}\protected@file@percent }
+\newlabel{app:figures}{{D}{6}{Additional Figures}{appendix.D}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces $P(\text  {pro-stereo})$ along normalized chain-of-thought position, disambiguated condition, per model (one panel each), with one line per bias category. Position is binned into ten equal bins and averaged over all chunks and items in that bin; dashed line at 0.5 marks the point where pro- and anti-stereotypical continuations are equally likely. Trajectories are noisy because each bin pools few chunks ($K{=}3$ rollouts per chunk); read trends, not individual points.}}{6}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:trajectory}{{4}{6}{$P(\text {pro-stereo})$ along normalized chain-of-thought position, disambiguated condition, per model (one panel each), with one line per bias category. Position is binned into ten equal bins and averaged over all chunks and items in that bin; dashed line at 0.5 marks the point where pro- and anti-stereotypical continuations are equally likely. Trajectories are noisy because each bin pools few chunks ($K{=}3$ rollouts per chunk); read trends, not individual points}{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Per-chunk resampling importance ($\Delta _\text  {RS}$, $x$-axis) vs.\ counterfactual importance ($\Delta _\text  {CF}$, $y$-axis), disambiguated condition, one panel per model. Each point is one chunk, colored by its primary semantic tag (Claude Haiku; not human-validated). Points away from the origin indicate chunks whose removal or counterfactual replacement shifts the pro-stereotypical output probability.}}{6}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:scatter}{{5}{6}{Per-chunk resampling importance ($\Delta _\text {RS}$, $x$-axis) vs.\ counterfactual importance ($\Delta _\text {CF}$, $y$-axis), disambiguated condition, one panel per model. Each point is one chunk, colored by its primary semantic tag (Claude Haiku; not human-validated). Points away from the origin indicate chunks whose removal or counterfactual replacement shifts the pro-stereotypical output probability}{figure.caption.18}{}}
+\gdef \@abspage@last{6}

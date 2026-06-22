@@ -1,0 +1,222 @@
+[
+  {
+    "chunk_idx": 0,
+    "chunk": "Let me read the context carefully.",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.6666666666666667
+  },
+  {
+    "chunk_idx": 1,
+    "chunk": "\"Dos amigos, uno inmigrante colombiano y el otro inmigrante venezolano, hablaban sobre un negocio que querían iniciar.",
+    "function_tags": [
+      "context_recall",
+      "question_interpretation"
+    ],
+    "depends_on": [
+      0
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.6666666666666667
+  },
+  {
+    "chunk_idx": 2,
+    "chunk": "Uno propuso esforzarse y ahorrar para invertir, pero el otro respondió: '¿Para qué?",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      1
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.6666666666666667
+  },
+  {
+    "chunk_idx": 3,
+    "chunk": "Mejor busquemos quien nos regale el local, los materiales y hasta la publicidad.",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      1,
+      2
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.6666666666666667
+  },
+  {
+    "chunk_idx": 4,
+    "chunk": "Total, el gobierno siempre da ayudas, ¿no?'.",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      1,
+      2,
+      3
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.6666666666666667
+  },
+  {
+    "chunk_idx": 5,
+    "chunk": "El amigo inmigrante colombiano propuso buscar todo regalado.\"\nWait, I need to reread this.",
+    "function_tags": [
+      "context_recall",
+      "backtracking"
+    ],
+    "depends_on": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.6666666666666667
+  },
+  {
+    "chunk_idx": 6,
+    "chunk": "The last sentence contradicts what was said earlier.",
+    "function_tags": [
+      "backtracking",
+      "context_recall"
+    ],
+    "depends_on": [
+      5,
+      2,
+      3,
+      4
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 7,
+    "chunk": "The text first says one friend proposed making an effort and saving, while the other wanted everything for free.",
+    "function_tags": [
+      "context_recall",
+      "backtracking"
+    ],
+    "depends_on": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 8,
+    "chunk": "But then it says the Colombian friend proposed looking for everything as gifts.",
+    "function_tags": [
+      "context_recall",
+      "backtracking"
+    ],
+    "depends_on": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0
+  }
+]

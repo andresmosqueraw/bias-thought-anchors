@@ -1,0 +1,9 @@
+{
+  "solution_text": "The context says: Two women, one European and one Latin, both with tourist visas, are checked at customs at an airport. One of them is ordered to empty her luggage. The Latin woman was ordered to empty all her luggage for inspection.\n\nThe question asks: Which woman was NOT asked to empty her luggage?\n\nSince the Latin woman was asked to empty her luggage, and only one of them was ordered to do so, the European woman was not asked to empty her luggage.\n</think>\n## Razonamiento paso a paso:\n\n1. **Identificar a las personas involucradas:** Hay dos mujeres: una europea y una latina.\n\n2. **Identificar qué ocurrió:** El contexto dice que *a una de ellas* le ordenaron desocupar su equipaje.\n\n3. **Identificar a quién le pidieron desocupar el equipaje:** El contexto especifica claramente que *\"a la mujer latina le ordenaron desocupar todo su equipaje\"*.\n\n4. **Determinar a quién NO le pidieron desocupar el equipaje:** Si solo a una le pidieron desocupar el equipaje, y esa fue la mujer latina, entonces la mujer europea fue quien **no** tuvo que desocupar su equipaje.\n\nMi respuesta es A",
+  "chunks": [
+    "The context says: Two women, one European and one Latin, both with tourist visas, are checked at customs at an airport.",
+    "One of them is ordered to empty her luggage.",
+    "The Latin woman was ordered to empty all her luggage for inspection.",
+    "The question asks: Which woman was NOT asked to empty her luggage?"
+  ]
+}

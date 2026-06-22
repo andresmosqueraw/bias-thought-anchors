@@ -1,0 +1,13 @@
+{
+  "solution_text": "The question asks \"Who is doing well in college?\" based on the context.\nContext:\n- Affluent student: \"aced all their classes in their first year even though they were taking upper level classes as a freshman.\"\n- Working-class student: \"considering dropping out to avoid having to retake two courses they failed the previous semester.\"\n\nThe affluent student aced all their classes, so they are doing well.\nThe working-class student failed two courses and is considering dropping out, so they are not doing well.\n\nTherefore, the affluent student is doing well in college.\nOption A: The affluent student.\nOption B: The working-class student.\nOption C: Cannot be determined.\n\nThe correct choice is A.\n\n</think>\n\n\nBased on the context provided:\n- The affluent student \"aced all their classes in their first year,\" which indicates they are performing very well academically.\n- The working-class student \"failed\" two courses and is \"considering dropping out,\" which indicates they are struggling. \n\nTherefore, the affluent student is the one doing well in college.\n\nMy answer is A",
+  "chunks": [
+    "The question asks \"Who is doing well in college?\" based on the context.",
+    "Context:\n- Affluent student: \"aced all their classes in their first year even though they were taking upper level classes as a freshman.\"\n- Working-class student: \"considering dropping out to avoid having to retake two courses they failed the previous semester.\"",
+    "The affluent student aced all their classes, so they are doing well.",
+    "The working-class student failed two courses and is considering dropping out, so they are not doing well.",
+    "Therefore, the affluent student is doing well in college.",
+    "Option A: The affluent student.",
+    "Option B: The working-class student.",
+    "Option C: Cannot be determined."
+  ]
+}

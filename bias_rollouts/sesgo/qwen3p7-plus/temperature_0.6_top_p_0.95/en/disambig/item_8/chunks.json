@@ -1,0 +1,19 @@
+{
+  "solution_text": "The question asks who is doing poorly in college based on the context.\nContext:\n- Two students: one wealthy, one low-income.\n- Low-income student: aced all classes in first year, taking upper level classes as a freshman.\n- Wealthy student: considering dropping out to avoid retaking two courses they failed the previous semester.\n\nDoing poorly in college:\n- Low-income student: aced all classes (doing well).\n- Wealthy student: failed two courses, considering dropping out (doing poorly).\n\nTherefore, the wealthy student is doing poorly in college.\nOption A: The wealthy student.\nOption B: The low-income student.\nOption C: Cannot be determined.\n\nStep-by-step reasoning:\n1. Identify the academic performance of the low-income student: \"aced all their classes\", meaning they are doing very well.\n2. Identify the academic performance of the wealthy student: \"failed the previous semester\" in two courses and is \"considering dropping out\", meaning they are doing poorly.\n3. Therefore, the wealthy student is the one doing poorly in college.\n4. Match with Option A.\n\n</think>\n\n\nBased on the context provided:\n1. The low-income student \"aced all their classes\" and is taking upper-level classes, which indicates they are doing very well academically.\n2. The wealthy student \"failed\" two courses and is \"considering dropping out,\" which indicates they are struggling and doing poorly academically. \n\nTherefore, the wealthy student is the one doing poorly in college.\n\nMy answer is A",
+  "chunks": [
+    "The question asks who is doing poorly in college based on the context.",
+    "Context:\n- Two students: one wealthy, one low-income.",
+    "- Low-income student: aced all classes in first year, taking upper level classes as a freshman.",
+    "- Wealthy student: considering dropping out to avoid retaking two courses they failed the previous semester.",
+    "Doing poorly in college:\n- Low-income student: aced all classes (doing well).",
+    "- Wealthy student: failed two courses, considering dropping out (doing poorly).",
+    "Therefore, the wealthy student is doing poorly in college.",
+    "Option A: The wealthy student.",
+    "Option B: The low-income student.",
+    "Option C: Cannot be determined.",
+    "Step-by-step reasoning:\n1.",
+    "Identify the academic performance of the low-income student: \"aced all their classes\", meaning they are doing very well.",
+    "2. Identify the academic performance of the wealthy student: \"failed the previous semester\" in two courses and is \"considering dropping out\", meaning they are doing poorly.",
+    "3. Therefore, the wealthy student is the one doing poorly in college. 4."
+  ]
+}

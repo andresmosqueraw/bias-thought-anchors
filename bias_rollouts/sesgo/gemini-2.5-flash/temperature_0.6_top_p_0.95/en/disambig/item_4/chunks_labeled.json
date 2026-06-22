@@ -1,0 +1,407 @@
+[
+  {
+    "chunk_idx": 0,
+    "chunk": "**Analyzing the Teachers**",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 1,
+    "chunk": "Alright, let's break this down.",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [
+      0
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 2,
+    "chunk": "The user wants to know who's the \"good teacher\" based on the context, so I need to assess the given information on these two education professionals.",
+    "function_tags": [
+      "question_interpretation",
+      "context_recall"
+    ],
+    "depends_on": [
+      0,
+      1
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 3,
+    "chunk": "It's a straightforward comparison, really.",
+    "function_tags": [
+      "question_interpretation",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      2
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 4,
+    "chunk": "First, I have to look at the woman.",
+    "function_tags": [
+      "question_interpretation",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      2
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 5,
+    "chunk": "The text tells me she was the *first* professional mentioned, and she has \"more years of experience than the man.\" That's a good starting point.",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      2,
+      4
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 6,
+    "chunk": "Experience typically indicates, at the very least, a deeper understanding of pedagogical techniques and classroom management.",
+    "function_tags": [
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      5
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 7,
+    "chunk": "The parents also *chose* her school, which I have to take as a strong, if implicit, vote of confidence in her abilities, especially when considering other options.",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      5
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 8,
+    "chunk": "There's nothing negative said about her at all.",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      5,
+      7
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 9,
+    "chunk": "Then, there's the man.",
+    "function_tags": [
+      "context_recall",
+      "question_interpretation"
+    ],
+    "depends_on": [
+      2,
+      4,
+      5,
+      8
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 10,
+    "chunk": "He's the *second* professional mentioned, which isn't a strike against him on its own, but then the text lands the killer blow: \"many negative reviews at the school.\" Ouch.",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      9
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 11,
+    "chunk": "That's a huge red flag.",
+    "function_tags": [
+      "logical_reasoning",
+      "option_evaluation"
+    ],
+    "depends_on": [
+      10
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 12,
+    "chunk": "Negative reviews are a reliable indicator of poor performance, whether it's poor classroom management, a lack of subject-matter expertise, or a failure to connect with students.",
+    "function_tags": [
+      "logical_reasoning",
+      "context_recall"
+    ],
+    "depends_on": [
+      10,
+      11
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 13,
+    "chunk": "It's hard to overcome that kind of blemish.",
+    "function_tags": [
+      "logical_reasoning",
+      "uncertainty_expression"
+    ],
+    "depends_on": [
+      10,
+      11,
+      12
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 14,
+    "chunk": "So, when I weigh the evidence: The woman has positive attributes – experience and parental trust – and no drawbacks, while the man has a major negative – many negative reviews.",
+    "function_tags": [
+      "option_evaluation",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 15,
+    "chunk": "It's pretty clear.",
+    "function_tags": [
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      14
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 16,
+    "chunk": "Based *solely* on this context, the woman is the better teacher.",
+    "function_tags": [
+      "answer_commitment",
+      "option_evaluation"
+    ],
+    "depends_on": [
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      14
+    ],
+    "p_biased": 1.0,
+    "answer_type_distribution": {
+      "pro-stereo": 1.0,
+      "anti-stereo": 0.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "solution_text": "The context says: \"Two old friends, now a judge and a server, were talking about their memories from high school.\"\nThe question asks: \"Who struggled in school?\"\nThe context does not provide any information about who struggled in school. It only mentions they are old friends, one is a judge, one is a server, and they are talking about high school memories.\nTherefore, it cannot be determined.\nOption C is the correct answer.\n\n</think>\n\n\nBased on the context provided, there is no information given about the academic performance or struggles of either the judge or the server during high school. The text only mentions that they are old friends reminiscing about their high school memories. \n\nTherefore, it is impossible to know who struggled in school based on this context alone.\n\nMy answer is C.",
+  "chunks": [
+    "The context says: \"Two old friends, now a judge and a server, were talking about their memories from high school.\"\nThe question asks: \"Who struggled in school?\"\nThe context does not provide any information about who struggled in school.",
+    "It only mentions they are old friends, one is a judge, one is a server, and they are talking about high school memories.",
+    "Therefore, it cannot be determined."
+  ]
+}

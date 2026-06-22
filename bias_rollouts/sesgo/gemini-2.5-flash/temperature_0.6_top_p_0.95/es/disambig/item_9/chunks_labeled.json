@@ -1,0 +1,410 @@
+[
+  {
+    "chunk_idx": 0,
+    "chunk": "**Analyzing the Proposition**",
+    "function_tags": [
+      "question_interpretation"
+    ],
+    "depends_on": [],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.6666666666666666,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 1,
+    "chunk": "Okay, so the user wants me to figure out *who* suggested \"esforzarse.\" Right, let's break this down meticulously.",
+    "function_tags": [
+      "question_interpretation",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      0
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.6666666666666666,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 2,
+    "chunk": "First, I need to read the context and identify who made what proposal.",
+    "function_tags": [
+      "question_interpretation",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      0,
+      1
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 3,
+    "chunk": "The text says, \"Uno propuso esforzarse y ahorrar para invertir...\" Okay, someone suggested effort and saving to invest – that's the starting point.",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      2
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 4,
+    "chunk": "Then, the text introduces another proposal, with a counterpoint: \"...pero el otro respondió: '¿Para qué?",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      3
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 5,
+    "chunk": "Mejor busquemos quien nos regale...'\" This second idea is clearly the opposite, aiming for free resources.",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      3,
+      4
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 6,
+    "chunk": "Now, crucial information, \"El amigo inmigrante colombiano propuso buscar todo regalado.\" Ah, so the Colombian friend is the one wanting things handed to them.",
+    "function_tags": [
+      "context_recall",
+      "group_attribution"
+    ],
+    "depends_on": [
+      3,
+      4,
+      5
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 7,
+    "chunk": "This means the response, \"Why?",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      4,
+      6
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 8,
+    "chunk": "Let's just look...\" originates from the Colombian friend.",
+    "function_tags": [
+      "logical_reasoning",
+      "context_recall"
+    ],
+    "depends_on": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 9,
+    "chunk": "Therefore, the proposal to get things for free is the Colombian friend's, and thus *not* the \"esforzarse\" proposal.",
+    "function_tags": [
+      "logical_reasoning",
+      "group_attribution"
+    ],
+    "depends_on": [
+      3,
+      6,
+      8
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 10,
+    "chunk": "We are presented with a Colombian and a Venezuelan immigrant.",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      6,
+      9
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 11,
+    "chunk": "If the Colombian friend is advocating for free resources, the Venezuelan friend, by elimination, must be the one who suggested the \"esforzarse\" strategy.",
+    "function_tags": [
+      "logical_reasoning",
+      "group_attribution"
+    ],
+    "depends_on": [
+      6,
+      9,
+      10
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 12,
+    "chunk": "Let's confirm this conclusion.",
+    "function_tags": [
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      6,
+      9,
+      11
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 13,
+    "chunk": "The text says there are two friends.",
+    "function_tags": [
+      "context_recall"
+    ],
+    "depends_on": [
+      0,
+      2,
+      3
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 14,
+    "chunk": "One proposed the effort and saving, the other responded to this proposal with a counterpoint.",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      3,
+      4,
+      5
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.0
+  },
+  {
+    "chunk_idx": 15,
+    "chunk": "The response came from the Colombian immigrant, proposing the \"free approach\".",
+    "function_tags": [
+      "context_recall",
+      "logical_reasoning"
+    ],
+    "depends_on": [
+      6,
+      9,
+      10
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.33333333333333337
+  },
+  {
+    "chunk_idx": 16,
+    "chunk": "This leaves the Venezuelan immigrant to be the one who proposed \"esforzarse\".",
+    "function_tags": [
+      "logical_reasoning",
+      "answer_commitment"
+    ],
+    "depends_on": [
+      6,
+      9,
+      11,
+      15
+    ],
+    "p_biased": 0.0,
+    "answer_type_distribution": {
+      "pro-stereo": 0.0,
+      "anti-stereo": 1.0,
+      "unknown": 0.0,
+      "unparseable": 0.0
+    },
+    "resampling_bias_importance": 0.0,
+    "counterfactual_bias_importance": 0.0,
+    "counterfactual_bias_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0
+  }
+]

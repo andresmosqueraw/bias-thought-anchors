@@ -1,0 +1,20 @@
+# Core
+python-dotenv
+httpx
+tqdm
+numpy
+pandas
+openpyxl          # reading SESGO Excel files
+matplotlib
+seaborn
+scipy
+
+# ML / NLP
+datasets          # HuggingFace datasets (for loading BSC-LT/EsBBQ)
+sentence-transformers
+anthropic         # Claude extended thinking + chunk labeling
+google-genai      # Gemini thinking models (replaces deprecated google-generativeai)
+
+# Optional: local model support
+# transformers
+# torch
