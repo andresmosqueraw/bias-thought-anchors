@@ -22,12 +22,7 @@ underlying data: the pairwise step->step attribution graph
 """
 
 import json
-import re
 from pathlib import Path
-
-ANSWER_RE = re.compile(
-    r"(?:respuesta es|my answer is|the answer is|answer is|respuesta:|answer:)"
-    r"\s*\[?\(?([ABC])", re.IGNORECASE)
 
 EXP = Path("/home/andrew/Documents/docs/1-super-related-work/papers-manual/"
            "ai-safety-research/experiments/bias-thought-anchors")
@@ -39,6 +34,15 @@ MODELS = ["qwen3p7-plus", "gemini-2.5-flash", "claude-sonnet-4-6"]
 LANGS = ["es", "en"]
 CONDS = ["ambig", "disambig"]
 
+# The "Solution" toggle groups items by the answer the model gave
+# (analogous to Correct/Incorrect in the math demo).
+BUCKET_MAP = {
+    "pro-stereo": "pro_stereo",
+    "anti-stereo": "anti_stereo",
+    "unknown": "unknown",
+    "unparseable": "unparseable",
+}
+
 
 def pretty_tag(tags):
     return tags[0].replace("_", " ") if tags else "step"
@@ -47,15 +51,19 @@ def pretty_tag(tags):
 def convert():
     n_items = 0
     for model in MODELS:
+        counters = {}  # per answer-type bucket, for re-numbering items
         for lang in LANGS:
             for cond in CONDS:
                 ana = EXP / f"analysis/sesgo/{model}/{lang}/{cond}/results.json"
                 if not ana.exists():
                     continue
                 items = json.load(open(ana, encoding="utf-8"))
-                soltype = f"{lang}_{cond}"
                 for it in items:
                     iid = it["item_id"]
+                    soltype = BUCKET_MAP.get(it.get("base_answer_type"),
+                                             "unknown")
+                    item_key = f"item_{counters.get(soltype, 0)}"
+                    counters[soltype] = counters.get(soltype, 0) + 1
                     roll = EXP / ("bias_rollouts/sesgo/"
                                   f"{model}/{TEMP}/{lang}/{cond}/{iid}")
                     if not roll.exists():
@@ -66,18 +74,29 @@ def convert():
                                           encoding="utf-8"))
                     chunks = it["labeled_chunks"]
 
-                    # Parse the answer the model actually gave from the full
-                    # solution text (more complete than base_solution.solution).
-                    sol_text = ""
-                    cj = roll / "chunks.json"
-                    if cj.exists():
-                        sol_text = json.load(open(cj, encoding="utf-8")).get(
-                            "solution_text", "")
-                    m = ANSWER_RE.search(sol_text)
-                    letter = m.group(1).upper() if m else None
-                    opts = {"A": meta.get("ans0"), "B": meta.get("ans1"),
-                            "C": meta.get("ans2")}
-                    model_answer_text = opts.get(letter) if letter else None
+                    # Reconstruct the model's answer from the authoritative
+                    # base_answer_type + polarity + target/other indices, so it
+                    # is always consistent with the Solution bucket. (Parsing the
+                    # letter from text is unreliable.)
+                    bat = it.get("base_answer_type")
+                    pol = it.get("question_polarity")
+                    tgt, oth = meta.get("target"), meta.get("other")
+                    if bat == "unknown":
+                        chosen = 2          # option C: "not enough information"
+                    elif bat == "pro-stereo":
+                        chosen = tgt if pol == "neg" else oth
+                    elif bat == "anti-stereo":
+                        chosen = oth if pol == "neg" else tgt
+                    else:
+                        chosen = None       # unparseable
+                    opt_list = [meta.get("ans0"), meta.get("ans1"),
+                                meta.get("ans2")]
+                    if chosen is not None and 0 <= chosen < 3:
+                        letter = "ABC"[chosen]
+                        model_answer_text = opt_list[chosen]
+                    else:
+                        letter = None
+                        model_answer_text = None
 
                     out_chunks = []
                     for ch in chunks:
@@ -132,7 +151,7 @@ def convert():
                     top = [{"step_idx": out_chunks[i]["chunk_idx"],
                             "step_text": out_chunks[i]} for i in order]
                     summary = {
-                        "scenario_idx": iid,
+                        "scenario_idx": item_key,
                         "num_chunks": it.get("num_chunks", len(chunks)),
                         "avg_importance": sum(imps) / len(imps) if imps else 0,
                         "max_importance": max(imps) if imps else 0,
@@ -141,13 +160,15 @@ def convert():
                     }
 
                     cat = it.get("category", "")
-                    idx = iid.split("_")[-1]
+                    # nickname = "#N  category (lang)" — unique within each bucket
+                    n = counters.get(soltype, 1) - 1  # already incremented above
                     scenario = {
-                        "scenario_id": iid,
-                        "nickname": f"{cat} {idx}",
-                        "urgency_type": (f"{cat} | {cond} | "
+                        "scenario_id": item_key,
+                        "original_item_id": iid,
+                        "nickname": f"#{n} {cat} ({lang})",
+                        "urgency_type": (f"{cat} | {lang.upper()} | {cond} | "
                                          f"polarity {it.get('question_polarity', '')} | "
-                                         f"base answer: {it.get('base_answer_type', '')}"),
+                                         f"answer: {it.get('base_answer_type', '')}"),
                         "category": cat,
                         "context_condition": cond,
                         "question_polarity": it.get("question_polarity"),
@@ -172,7 +193,7 @@ def convert():
                         "answer": meta.get("answer"),
                     }
 
-                    outdir = WEB / model / soltype / iid
+                    outdir = WEB / model / soltype / item_key
                     outdir.mkdir(parents=True, exist_ok=True)
                     for name, data in [("scenario", scenario),
                                        ("chunks_labeled", out_chunks),

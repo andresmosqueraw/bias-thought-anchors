@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.21)  21 JUN 2026 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.21)  21 JUN 2026 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -840,79 +840,88 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 62.
+(Font)              scaled to size 10.0pt on input line 61.
 
-Underfull \hbox (badness 2717) in paragraph at lines 43--71
+Underfull \hbox (badness 2717) in paragraph at lines 43--70
 []\T1/ptm/m/n/10 (+20) We in-ves-ti-gate which rea-son-ing steps in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--71
+Underfull \hbox (badness 10000) in paragraph at lines 43--70
 \T1/ptm/m/n/10 (+20) extended-thinking LLMs are as-so-ci-ated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--71
+Underfull \hbox (badness 10000) in paragraph at lines 43--70
 \T1/ptm/m/n/10 (+20) with pro-stereotypical out-puts on Latin
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 43--71
+Underfull \hbox (badness 4366) in paragraph at lines 43--70
 \T1/ptm/m/n/10 (+20) no vis-i-bil-ity into in-ter-me-di-ate rea-son-ing.
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 43--71
+Underfull \hbox (badness 3612) in paragraph at lines 43--70
 \T1/ptm/m/n/10 (+20) We adapt the thought-anchor re-sam-pling
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 43--71
-\T1/ptm/m/n/10 (+20) via three im-por-tance met-rics ($\OT1/cmr/m/n/10 ^^A[]$\T
-1/ptm/m/n/10 (+20) , $\OT1/cmr/m/n/10 ^^A[]$\T1/ptm/m/n/10 (+20) ,
+Underfull \hbox (badness 1571) in paragraph at lines 43--70
+\T1/ptm/m/n/10 (+20) chunk in a model's chain-of-thought, we
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 43--71
+Underfull \hbox (badness 4036) in paragraph at lines 43--70
+\T1/ptm/m/n/10 (+20) prob-a-bil-ity via three im-por-tance met-rics.
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 43--70
+\T1/ptm/m/n/10 (+20) We ap-ply this pipeline to SESGO-small,
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 43--70
 \T1/ptm/m/n/10 (+20) and three re-cent mod-els with ex-tended
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 43--71
+Underfull \hbox (badness 1584) in paragraph at lines 43--70
 \T1/ptm/m/n/10 (+20) rea-son-ing po-si-tions tend to be tagged as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--71
+Underfull \hbox (badness 10000) in paragraph at lines 43--70
 \T1/zi4/m/n/10 logical_reasoning \T1/ptm/m/n/10 (+20) or \T1/zi4/m/n/10 context
 _recall
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 43--71
+Underfull \hbox (badness 1509) in paragraph at lines 43--70
 \T1/ptm/m/n/10 (+20) may lie in gen-eral in-fer-ence steps rather
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 43--71
+Underfull \hbox (badness 1776) in paragraph at lines 43--70
 \T1/ptm/m/n/10 (+20) answer-level bench-marks. More broadly,
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-9.
+8.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 112.
+(Font)              scaled to size 10.95pt on input line 111.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
+Underfull \hbox (badness 10000) in paragraph at lines 109--114
 \T1/ptm/m/n/10.95 (+20) and \T1/zi4/m/n/10.95 context_recall \T1/ptm/m/n/10.95 
 (+20) rather than
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
+Underfull \hbox (badness 10000) in paragraph at lines 109--114
 \T1/zi4/m/n/10.95 stereotype_activation\T1/ptm/m/n/10.95 (+20) , sug-gest-ing
  []
 
@@ -926,33 +935,33 @@ t1-0.enc}
 Underfull \vbox (badness 1112) has occurred while \output is active []
 
  [2]
-Overfull \hbox (8.86018pt too wide) detected at line 241
+Overfull \hbox (8.86018pt too wide) detected at line 240
 [][][]\OT1/cmr/m/n/10.95 ^^A[](\OML/cmm/m/it/10.95 i\OT1/cmr/m/n/10.95 ) = \OML
 /cmm/m/it/10.95 P[]\OT1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.95 i\OT1/cmr/m/n/10.9
 5 ) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 P[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--252
+Underfull \hbox (badness 10000) in paragraph at lines 246--251
 \T1/ptm/m/n/10.95 (+20) With $\OML/cmm/m/it/10.95 K[]\OT1/cmr/m/n/10.95 3$\T1/p
 tm/m/n/10.95 (+20) , per-chunk $\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 ([]) \O
 MS/cmsy/m/n/10.95 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--263
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
 \T1/ptm/m/n/10.95 (+20) ten-tag tax-on-omy (\T1/zi4/m/n/10.95 stereotype_activa
 tion\T1/ptm/m/n/10.95 (+20) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--263
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
 \T1/zi4/m/n/10.95 context_recall\T1/ptm/m/n/10.95 (+20) , \T1/zi4/m/n/10.95 log
 ical_reasoning\T1/ptm/m/n/10.95 (+20) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--263
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
 \T1/zi4/m/n/10.95 option_evaluation\T1/ptm/m/n/10.95 (+20) , \T1/zi4/m/n/10.95 
 backtracking\T1/ptm/m/n/10.95 (+20) , and
  []
@@ -961,10 +970,10 @@ backtracking\T1/ptm/m/n/10.95 (+20) , and
 File: ../figures/fig1_base_bias_rates.pdf Graphic file (type pdf)
 <use ../figures/fig1_base_bias_rates.pdf>
 Package pdftex.def Info: ../figures/fig1_base_bias_rates.pdf  used on input lin
-e 317.
+e 316.
 (pdftex.def)             Requested size: 219.08614pt x 108.31955pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--337
+Underfull \hbox (badness 10000) in paragraph at lines 326--336
 \T1/ptm/m/n/10.95 (+20) ($\OML/cmm/m/it/10.95 n[]\OT1/cmr/m/n/10.95 34$ \T1/ptm
 /m/n/10.95 (+20) to-tal la-beled chunks, 1.1%) and
  []
@@ -974,28 +983,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--337
 File: ../figures/fig3_tag_importance.pdf Graphic file (type pdf)
 <use ../figures/fig3_tag_importance.pdf>
 Package pdftex.def Info: ../figures/fig3_tag_importance.pdf  used on input line
- 364.
+ 363.
 (pdftex.def)             Requested size: 219.08614pt x 108.23416pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--387
+Underfull \hbox (badness 10000) in paragraph at lines 374--386
  []\T1/ptm/b/n/10.95 (+20) Qualitative ex-am-ple.[] \T1/ptm/m/n/10.95 (+20) Gem
 -ini 2.5 Flash,
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 375--387
+Underfull \hbox (badness 1755) in paragraph at lines 374--386
 \T1/ptm/m/n/10.95 (+20) EN/disambig, xeno-fo-bia, item_2 ex-hibits the
  []
 
 
-Underfull \hbox (badness 7186) in paragraph at lines 375--387
+Underfull \hbox (badness 7186) in paragraph at lines 374--386
 \T1/ptm/m/n/10.95 (+20) (\T1/zi4/m/n/10.95 option_evaluation\T1/ptm/m/n/10.95 (
 +20) , $\OML/cmm/m/it/10.95 P[]\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cm
 r/m/n/10.95 0$\T1/ptm/m/n/10.95 (+20) ) eval-u-ates the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--387
+Underfull \hbox (badness 10000) in paragraph at lines 374--386
 \T1/ptm/m/n/10.95 (+20) (\T1/zi4/m/n/10.95 logical_reasoning\T1/ptm/m/n/10.95 (
 +20) , $\OML/cmm/m/it/10.95 P[]\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cm
 r/m/n/10.95 0$\T1/ptm/m/n/10.95 (+20) ) in-tro-duces a
@@ -1011,7 +1020,7 @@ Underfull \hbox (badness 6510) in paragraph at lines 52--58
 File: ../figures/fig5_heatmap_categories.pdf Graphic file (type pdf)
 <use ../figures/fig5_heatmap_categories.pdf>
 Package pdftex.def Info: ../figures/fig5_heatmap_categories.pdf  used on input 
-line 492.
+line 491.
 (pdftex.def)             Requested size: 219.08614pt x 145.70067pt.
 
 
@@ -1021,7 +1030,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <../figures/fig2_trajectory.pdf, id=334, 932.01024pt x 327.42326pt>
 File: ../figures/fig2_trajectory.pdf Graphic file (type pdf)
 <use ../figures/fig2_trajectory.pdf>
-Package pdftex.def Info: ../figures/fig2_trajectory.pdf  used on input line 549
+Package pdftex.def Info: ../figures/fig2_trajectory.pdf  used on input line 548
 .
 (pdftex.def)             Requested size: 219.08614pt x 76.96445pt.
 
@@ -1031,7 +1040,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <../figures/fig4_scatter.pdf, id=335, 931.94678pt x 339.9902pt>
 File: ../figures/fig4_scatter.pdf Graphic file (type pdf)
 <use ../figures/fig4_scatter.pdf>
-Package pdftex.def Info: ../figures/fig4_scatter.pdf  used on input line 562.
+Package pdftex.def Info: ../figures/fig4_scatter.pdf  used on input line 561.
 (pdftex.def)             Requested size: 219.08614pt x 79.92365pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1065,7 +1074,7 @@ amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y9.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 279485 bytes).
+Output written on main.pdf (6 pages, 279400 bytes).
 PDF statistics:
  605 PDF objects out of 1000 (max. 8388607)
  311 compressed objects within 4 object streams
